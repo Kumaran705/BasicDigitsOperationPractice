@@ -9,20 +9,20 @@ public class BasicOperation {
     
 }
     */
-/*
-import java.util.*;
+
 //Print the Tens digit of an number
+import java.util.*;
 public class BasicOperation{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
         System.out.println((a/10)%10);
     }
-}*/
+}
 
+//Print the Hundreds digit of an number
 /*
 import java.util.*;
-//Print the Hundreds digit of an number
 public class BasicOperation{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
@@ -31,21 +31,21 @@ public class BasicOperation{
     }
 }
 */
-/*
-import java.util.*;
-//Print the Sum of Digits of a number
+/*import java.util.*;
+//Print the Sumof digits
 public class BasicOperation{
-      public static void main(String args[]){  
-          Scanner sc=new Scanner(System.in);
-          int a=sc.nextInt();
-          int sum=0;
-          while(a>0){
-            sum=a%10;
-           a/=10;
-         }
-         System.out.println(sum);
-   }
-}*/
+   public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int sum=0;
+        while(a>10){
+        int digit=a%10;
+        sum+=digit;
+        a/=10;
+        }
+        System.out.println(sum);
+        }
+} */
 /*
 import java.util.*;
 //Print the product of digits
@@ -136,7 +136,7 @@ public class BasicOperation{
 
  /*
  import java.util.*;
-//Find the Largest digit in a number
+ //Find the Largest digit in a number
  public class BasicOperation{
     public static void main(String args[]){
        int a=sc.nextInt();
@@ -149,7 +149,5 @@ public class BasicOperation{
         a/=10;  
         }
         System.out.println(small);
-   }
-} */
-
-
+    
+    }} */
