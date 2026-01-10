@@ -3,7 +3,7 @@ public class Armstrong{
     boolean ArmstrongCheck(int n){
       int num=n;
       int sum=0; 
-      int digits=String.valuOf(n).length();
+      int digits=String.valueOf(n).length();
       while(n>0){
          int digit=n%10;
           sum+=Math.pow(digit,digits);
